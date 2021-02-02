@@ -1,20 +1,8 @@
-# re-kepler
+# kepler-gl demo
 
-Doesn't work yet
+## Running the Demo
 
-## Package kepler.gl
-
+```bash
+yarn install
+yarn shadow-cljs watch app
 ```
-cd libs
-npm i
-npm run-script dev
-cp dist/main.js ../resources/public/js
-```
-
-## Watch 
-
-```
-lein watch
-```
-
-Open browser pointing to http://localhost:8280
